@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+using gruppArbete.Models;
 using gruppArbete.Services;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Text.Json;
 
 namespace gruppArbete
 {
@@ -50,9 +52,18 @@ namespace gruppArbete
 
             app.UseAuthorization();
 
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapGet("/tasks", (context) =>
+                {
+                    var tasks = app.ApplicationServices.GetService<JsonFileTaskService>().GetTasks();
+                    var json = JsonSerializer.Serialize<IEnumerable<Task>>(tasks);
+
+                    return context.Response.WriteAsync(json);
+
+                });
             });
         }
     }

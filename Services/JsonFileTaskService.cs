@@ -17,7 +17,7 @@
 
             public IWebHostEnvironment WebHostEnvironment { get; }
 
-            private string JsonFileName => Path.Combine(WebHostEnvironment.WebRootPath, "Data", "Task.json");
+            private string JsonFileName => Path.Combine(WebHostEnvironment.WebRootPath, "Data", "tasks.json");
 
             public IEnumerable<Task> GetTasks()
             {

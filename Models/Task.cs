@@ -10,11 +10,8 @@ namespace gruppArbete.Models
         public string created_at { get; set; }
         public bool is_complete { get; set; }
 
-        public override string ToString()
-        {
-            JsonSerializer.Serialize<Task>(this);
-            return base.ToString();
-        }
+        public override string ToString() =>
+            JsonSerializer.Serialize<Task>(this); // Convert the c# data to JSON    
     }
 
 }
