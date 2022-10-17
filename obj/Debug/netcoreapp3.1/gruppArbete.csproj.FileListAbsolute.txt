@@ -350,3 +350,4 @@
 /Users/felix/Projects/gruppArbete/gruppArbete/obj/Debug/netcoreapp3.1/gruppArbete.dll
 /Users/felix/Projects/gruppArbete/gruppArbete/obj/Debug/netcoreapp3.1/gruppArbete.pdb
 /Users/felix/Projects/gruppArbete/gruppArbete/obj/Debug/netcoreapp3.1/gruppArbete.genruntimeconfig.cache
+/Users/felix/Projects/gruppArbete/gruppArbete/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll

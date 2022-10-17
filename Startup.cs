@@ -56,10 +56,10 @@ namespace gruppArbete
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapGet("/tasks", (context) =>
+                endpoints.MapGet("/books", (context) =>
                 {
-                    var tasks = app.ApplicationServices.GetService<JsonFileTaskService>().GetTasks();
-                    var json = JsonSerializer.Serialize<IEnumerable<Task>>(tasks);
+                    var books = app.ApplicationServices.GetService<JsonFileTaskService>().GetTasks();
+                    var json = JsonSerializer.Serialize<IEnumerable<Books>>(books);
 
                     return context.Response.WriteAsync(json);
 

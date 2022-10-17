@@ -15,14 +15,14 @@
                 WebHostEnvironment = webHostEnvironment;
             }
 
-            public IWebHostEnvironment WebHostEnvironment { get; }
+            public IWebHostEnvironment WebHostEnvironment { get; } // until here and above is just getting the website information
 
-            private string JsonFileName => Path.Combine(WebHostEnvironment.WebRootPath, "Data", "tasks.json");
+            private string JsonFileName => Path.Combine(WebHostEnvironment.WebRootPath, "Data", "DataSourceInJson.json"); //Combining the website and the json file
 
-            public IEnumerable<Task> GetTasks()
+        public IEnumerable<Books> GetTasks()
             {
                 using var jsonFileReader = File.OpenText(JsonFileName);
-                return JsonSerializer.Deserialize<Task[]>(jsonFileReader.ReadToEnd(),
+                return JsonSerializer.Deserialize<Books[]>(jsonFileReader.ReadToEnd(),
                     new JsonSerializerOptions
                     {
                         PropertyNameCaseInsensitive = true
