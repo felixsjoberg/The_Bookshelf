@@ -11,7 +11,9 @@
     "Publisher": "Random House Business Books",
     "Type": "Inbunden",
     "NobelPriceWinner": false,
-    "Ownership": false
+    "Ownership": false,
+    "Image": "https://s1.adlibris.com/images/64407130/dk-eyewitness-top-10-travel-guide-venice.jpg"
+
   },
   {
     "Title": "Angels and Demons",
@@ -25,7 +27,8 @@
     "Publisher": "Simon & Schuster",
     "Type": "Pocket",
     "NobelPriceWinner": false,
-    "Ownership":false
+    "Ownership": false,
+    "Image": "https://s1.adlibris.com/images/2656688/angels-and-demons.jpg"
 
   },
   {
@@ -40,7 +43,8 @@
     "Publisher": "Little Brown and Company",
     "Type": "Pocket",
     "NobelPriceWinner": false,
-    "Ownership": true
+    "Ownership": true,
+    "Image": "https://s2.adlibris.com/images/29254964/chemist.jpg"
   },
   {
     "Title": "The Merchant of Venice",
@@ -54,7 +58,8 @@
     "Publisher": "Simon & Schuster",
     "Type": "Inbunden",
     "NobelPriceWinner": false,
-    "Ownership": false
+    "Ownership": false,
+    "Image": "https://s1.adlibris.com/images/11915883/the-merchant-of-venice.jpg"
   },
   {
     "Title": "Ancient Greece",
@@ -68,7 +73,8 @@
     "Publisher": "DK Children",
     "Type": "Inbunden",
     "NobelPriceWinner": false,
-    "Ownership":false
+    "Ownership": false,
+    "Image": "https://s2.adlibris.com/images/1195071/ancient-greece.jpg"
   },
   {
     "Title": "The Da Vinci Code",
@@ -82,7 +88,8 @@
     "Publisher": "Doubleday",
     "Type": "Pocket",
     "NobelPriceWinner": false,
-    "Ownership":true
+    "Ownership": true,
+    "Image": "https://s2.adlibris.com/images/6340227/da-vinci-code.jpg"
 
   },
   {
@@ -97,7 +104,8 @@
     "Publisher": "Doubleday",
     "Type": "Pocket",
     "NobelPriceWinner": false,
-    "Ownership":false
+    "Ownership": false,
+    "Image": "https://s2.adlibris.com/images/11569373/inferno.jpg"
   },
   {
     "Title": "Harry Potter and The Philosopher's Stone",
@@ -111,7 +119,8 @@
     "Publisher": "Bloomsbury",
     "Type": "Pocket",
     "NobelPriceWinner": false,
-    "Ownership":true
+    "Ownership": true,
+    "Image": "https://s2.adlibris.com/images/7003163/harry-potter-and-the-philosophers-stone.jpg"
   },
   {
     "Title": "The Witcher: The Last Wish",
@@ -125,7 +134,8 @@
     "Publisher": "SuperNOWA",
     "Type": "Pocket",
     "NobelPriceWinner": false,
-    "Ownership":true
+    "Ownership": true,
+    "Image": "https://s1.adlibris.com/images/56511466/last-wish.jpg"
   },
   {
     "Title": "Eat, Pray, Love",
@@ -139,7 +149,8 @@
     "Publisher": "Penguin",
     "Type": "Inbunden",
     "NobelPriceWinner": false,
-    "Ownership":false
+    "Ownership": false,
+    "Image": "https://s2.adlibris.com/images/4030304/eat-pray-love.jpg"
   },
 
   {
@@ -154,7 +165,8 @@
     "Publisher": "Norstedts",
     "Type": "Inbunden",
     "NobelPriceWinner": true,
-    "Ownership":false
+    "Ownership": false,
+    "Image": "https://s2.adlibris.com/images/64971146/aren.jpg"
   },
   {
     "Title": "Malma Station",
@@ -168,7 +180,8 @@
     "Publisher": "Albert Bonniers Publish",
     "Type": "Inbunden",
     "NobelPriceWinner": false,
-    "Ownership": true
+    "Ownership": true,
+    "Image": "https://s1.adlibris.com/images/63140428/malma-station.jpg"
 
   },
   {
@@ -183,7 +196,8 @@
     "Publisher": "Random House Business Books",
     "Type": "Pocket",
     "NobelPriceWinner": false,
-    "Ownership":true
+    "Ownership": true,
+    "Image": "https://s2.adlibris.com/images/30823115/atomic-habits.jpg"
   },
   {
     "Title": "Stöld",
@@ -197,7 +211,8 @@
     "Publisher": "Romanus Selling",
     "Type": "Pocket",
     "NobelPriceWinner": false,
-    "Ownership":false
+    "Ownership": false,
+    "Image": "https://s1.adlibris.com/images/62352422/stold.jpg"
   },
   {
     "Title": "Shuggie Bain",
@@ -211,7 +226,8 @@
     "Publisher": "Albert Bonniers Publish",
     "Type": "pocket",
     "NobelPriceWinner": false,
-    "Ownership":false
+    "Ownership": false,
+    "Image": "https://s2.adlibris.com/images/62684185/shuggie-bain.jpg"
   },
   {
     "Title": "Tänka, snabbt och långsamt",
@@ -225,7 +241,8 @@
     "Publisher": "Volante",
     "Type": "Pocket",
     "NobelPriceWinner": true,
-    "Ownership":true
+    "Ownership": true,
+    "Image": "https://s2.adlibris.com/images/38311996/tanka-snabbt-och-langsamt.jpg"
   },
   {
     "Title": "Hjärnstark : hur motion och träning stärker din hjärna",
@@ -239,7 +256,8 @@
     "Publisher": "Månpocket",
     "Type": "Pocket",
     "NobelPriceWinner": false,
-    "Ownership":true
+    "Ownership": true,
+    "Image": "https://s1.adlibris.com/images/43499150/hjarnstark-hur-motion-och-traning-starker-din-hjarna.jpg"
   },
   {
     "Title": "Morgonstjärnan",
@@ -253,7 +271,8 @@
     "publisher": "Norstedts",
     "Type": "Pocket",
     "NobelPriceWinner": false,
-    "Ownership":true
+    "Ownership": true,
+    "Image": "https://s1.adlibris.com/images/61702950/morgonstjarnan.jpg"
   },
   {
     "Title": "Hjärtlinjer",
@@ -267,7 +286,8 @@
     "Publisher": "Albert Bonniers Publish",
     "Type": "Pocket",
     "NobelPriceWinner": false,
-    "Ownership":true
+    "Ownership": true,
+    "Image": "https://s2.adlibris.com/images/61803473/hjartlinjer.jpg"
   },
   {
     "Title": "Innan floden tar oss",
@@ -281,7 +301,9 @@
     "Publisher": "Norstedts",
     "Type": "Pocket",
     "NobelPriceWinner": false,
-    "Ownership": false
+    "Ownership": false,
+    "Image": "https://s2.adlibris.com/images/247312/innan-floden-tar-oss.jpg"
+
   },
   {
     "Title": "Hälsogåtan : evolution, forskning och 48 konkreta råd",
@@ -295,7 +317,8 @@
     "Publisher": "Bonnier Fakta",
     "Type": "Inbunden",
     "NobelPriceWinner": false,
-    "Ownership":false
+    "Ownership": false,
+    "Image": "https://s1.adlibris.com/images/55216958/halsogatan-evolution-forskning-och-48-konkreta-rad.jpg"
   },
   {
     "Title": "En man som heter Ove jubileumsutgåva - signerad",
@@ -309,7 +332,8 @@
     "Publisher": "Bokförlaget Forum",
     "Type": "Inbunden",
     "NobelPriceWinner": false,
-    "Ownership":true
+    "Ownership": true,
+    "Image": "https://s1.adlibris.com/images/64848138/signerad-en-man-som-heter-ove-jubileumsutgava.jpg"
 
   },
   {
@@ -324,11 +348,12 @@
     "Publisher": "Månpocket",
     "Type": "Pocket",
     "NobelPriceWinner": false,
-    "Ownership":true
+    "Ownership": true,
+    "Image": "https://s1.adlibris.com/images/54707047/och-bilen-gar-bra.jpg"
   },
   {
     "Title": "Factfulness : tio knep som hjälper dig förstå världen",
-    "Author": "Hans Rosling, Ola Rosling,Anna Rönnlund Rosling",
+    "Author": "Hans Rosling, Ola Rosling, Anna Rönnlund Rosling",
     "ISBN": "9789127168336",
     "Subject": "Social Research",
     "Language": "Swedish",
@@ -338,7 +363,9 @@
     "Publisher": "Natur Kultur Allmänlitteratur",
     "Type": "Pocket",
     "NobelPriceWinner": false,
-    "Ownership":false
+    "Ownership": false,
+    "Image": "https://s1.adlibris.com/images/57265299/factfulness-tio-knep-som-hjalper-dig-forsta-varlden.jpg"
+
   }
 
 
