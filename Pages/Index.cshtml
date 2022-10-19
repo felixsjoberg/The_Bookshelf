@@ -1,16 +1,64 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Bookshelf";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Book Application</h1>
+    <h1 class="display-4">The Bookshelf</h1>
     <p>....</a>.</p>
 </div>
 
-@foreach (var book in Model.books)
+@*@foreach (var book in Model.books)
 {
     <h2>Title: @book.Title. Author: @book.Author</h2>
     <br />
-}
+}*@
+<div class="container p-1">
+    <div class="row pt-4">
+        <div class="col-6">
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="" asp-action="" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> &nbsp; Add new book
+            </a>
+        </div>
+    </div>
+    <br /><br />
+
+    <table class="table table-hover" style="width:100%">
+        <thead>
+            <tr>
+                <th>
+                    <h2>Title</h2>
+                </th>
+                <th>
+                    <h2>Author</h2>
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model.books)
+            {
+                <tr>
+                    <td width="50%">
+                        @book.Title
+                    </td>
+                    <td width="30%">
+                        @book.Author    
+                    </td>
+                    <td>
+                        <div class="w-75 btn-group" role="group">
+                            <a asp-controller="" asp-action="Edit" asp-route-id="@book.Title"
+                               class="btn btn-primary mx-2"> <i class="bi bi-pencil-square"></i> Edit</a>
+                            <a asp-controller="" asp-action="Delete" asp-route-id="@book.Author"
+                               class="btn btn-danger mx-2"> <i class="bi bi-trash-fill"></i> Delete</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>
