@@ -23,6 +23,8 @@ namespace gruppArbete.Models
         public bool NobelPriceWinner { get; set; }
         public bool Ownership { get; set; }
         public string Publisher { get; set; }
+
+        public string Image { get; set; }
     }
 
 
