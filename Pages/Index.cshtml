@@ -5,7 +5,7 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">The Bookshelf</h1>
+    <h1 class="display-4"><span style="color: rgb(255,193,7);">The</span> Bookshelf</h1>
     <p>....</a>.</p>
 </div>
 
@@ -25,47 +25,28 @@
         </div>
     </div>
     <br /><br />
-
-    <table class="table table-hover" style="width:100%">
-        <thead>
-            <tr>
-                <th>
-                    <h2>Book cover</h2>
-                </th>
-                <th>
-                    <h2>Title</h2>
-                </th>
-                <th>
-                    <h2>Author</h2>
-                </th>
-                <th></th>
-            </tr>
-        </thead>
         <tbody>
-            @foreach (var book in Model.books)
-            {
-                <tr>
-                    <td width="30%">
-                        @book.Image
-                    </td>
-                    <td width="50%">
-                        @book.Title
-                    </td>
-                    <td width="30%">
-                        @book.Author    
-                    </td>
-                    <td>
-                        <div class="w-75 btn-group" role="group">
-                            <a asp-controller="" asp-action="Edit" asp-route-id="@book.Image"
-                           class="btn btn-primary mx-2"> <i class="bi bi-pencil-square"></i> Edit</a>
-                            <a asp-controller="" asp-action="Edit" asp-route-id="@book.Title"
-                               class="btn btn-primary mx-2"> <i class="bi bi-pencil-square"></i> Edit</a>
-                            <a asp-controller="" asp-action="Delete" asp-route-id="@book.Author"
-                               class="btn btn-danger mx-2"> <i class="bi bi-trash-fill"></i> Delete</a>
+            <div class="container">
+                <div class="row">
+                    @foreach (var book in Model.books)
+                    {
+                        <div class="col-md-3">
+                            <div class="card mb-4">
+                                <img style="max-height: 20%;" src="@book.Image" alt="@book.Title book cover">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">@book.Title</h5>
+                                    <h6 class="card-subtitle text-muted">By @book.Author</h6>
+                                </div>
+                                <div style="text-align:center;">
+                                    <button  type="button" class="btn btn-outline-warning">Book Review</button>
+                                </div>
+                                
+                            </div>
                         </div>
-                    </td>
-                </tr>
-            }
+                    }
+                </div>
+            </div>
         </tbody>
 
     </table>
