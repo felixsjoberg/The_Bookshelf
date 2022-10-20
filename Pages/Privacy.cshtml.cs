@@ -10,6 +10,7 @@ namespace gruppArbete.Pages
 {
     public class PrivacyModel : PageModel
     {
+        private const string Value = "Book covers courtesy of Adlibris";
         private readonly ILogger<PrivacyModel> _logger;
 
         public PrivacyModel(ILogger<PrivacyModel> logger)
@@ -19,6 +20,7 @@ namespace gruppArbete.Pages
 
         public void OnGet()
         {
+            Console.WriteLine(Value);
         }
     }
 }

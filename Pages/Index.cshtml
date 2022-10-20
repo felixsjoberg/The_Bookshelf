@@ -11,7 +11,7 @@
 
 @*@foreach (var book in Model.books)
 {
-    <h2>Title: @book.Title. Author: @book.Author</h2>
+    <h2>Image: @book.Image. Title: @book.Title. Author: @book.Author</h2>
     <br />
 }*@
 <div class="container p-1">
@@ -30,6 +30,9 @@
         <thead>
             <tr>
                 <th>
+                    <h2>Book cover</h2>
+                </th>
+                <th>
                     <h2>Title</h2>
                 </th>
                 <th>
@@ -42,6 +45,9 @@
             @foreach (var book in Model.books)
             {
                 <tr>
+                    <td width="30%">
+                        @book.Image
+                    </td>
                     <td width="50%">
                         @book.Title
                     </td>
@@ -50,6 +56,8 @@
                     </td>
                     <td>
                         <div class="w-75 btn-group" role="group">
+                            <a asp-controller="" asp-action="Edit" asp-route-id="@book.Image"
+                           class="btn btn-primary mx-2"> <i class="bi bi-pencil-square"></i> Edit</a>
                             <a asp-controller="" asp-action="Edit" asp-route-id="@book.Title"
                                class="btn btn-primary mx-2"> <i class="bi bi-pencil-square"></i> Edit</a>
                             <a asp-controller="" asp-action="Delete" asp-route-id="@book.Author"
