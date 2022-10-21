@@ -25,29 +25,29 @@
         </div>
     </div>
     <br /><br />
-        <tbody>
-            <div class="container">
-                <div class="row">
-                    @foreach (var book in Model.books)
-                    {
-                        <div class="col-md-3">
-                            <div class="card mb-4">
-                                <img style="max-height: 20%;" src="@book.Image" alt="@book.Title book cover">
+    <tbody>
+        <div class="container">
+            <div class="row">
+                @foreach (var book in Model.books)
+                {
+                    <div class="col-md-3">
+                        <div class="card mb-4">
+                            <img style="max-height: 20%;" src="@book.Image" alt="@book.Title book cover">
 
-                                <div class="card-body">
-                                    <h5 class="card-title">@book.Title</h5>
-                                    <h6 class="card-subtitle text-muted">By @book.Author</h6>
-                                </div>
-                                <div style="text-align:center;">
-                                    <button  type="button" class="btn btn-outline-warning">Book Review</button>
-                                </div>
-                                
+                            <div class="card-body">
+                                <h5 class="card-title">@book.Title</h5>
+                                <h6 class="card-subtitle text-muted">By @book.Author</h6>
                             </div>
+                            <div style="text-align:center;">
+                                <button type="button" class="btn btn-outline-warning">Book Review</button>
+                            </div>
+
                         </div>
-                    </td>
-                </tr>
-            }
-        </tbody>
+                    </div>
+                }
+            </div>
+        </div>
+    </tbody>
 
     </table>
 </div>
