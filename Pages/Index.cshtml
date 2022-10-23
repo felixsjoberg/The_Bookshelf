@@ -26,13 +26,16 @@
     </div>
     <br /><br />
     <tbody>
-        <div class="container">
+        <div class="container" style="margin-bottom:40px">
             <div class="row">
                 @foreach (var book in Model.books)
                 {
+                    
                     <div class="col-md-3">
-                        <div class="card mb-4">
-                            <img style="max-height: 20%;" src="@book.Image" alt="@book.Title book cover">
+                        <div class="card mb-4" style="min-height: 450px;">
+                            @*<img style="max-height: 20%;" src="@book.image" alt="@book.title book cover">*@
+                            
+                            <img class="bd-placeholder-img card-img-top" height="280" src="@book.Image" role="img" >
 
                             <div class="card-body">
                                 <h5 class="card-title">@book.Title</h5>
@@ -42,8 +45,10 @@
                                 <button type="button" class="btn btn-outline-warning">Book Review</button>
                             </div>
 
+
                         </div>
-                    </div>
+                     </div>
+                   
                 }
             </div>
         </div>
