@@ -13,7 +13,7 @@ namespace gruppArbete.Pages
     {
         private readonly ILogger<IndexModel> _logger;
         public JsonFileTaskService BooksService; //object av services
-        public IEnumerable<Books> books { get; private set; }
+        public List<Books> books { get; set; }
 
         public IndexModel(ILogger<IndexModel> logger,
             JsonFileTaskService taskService)
@@ -28,6 +28,18 @@ namespace gruppArbete.Pages
             books = BooksService.GetTasks();
 
         }
+        public string HaveRead(Books book)
+        {
+            return book.Read ? "Yes" : "No";
+        }
+
+        
+
+        //public IActionResult OnPostDelete(int isbn)
+        //{
+        //    BooksService.Delete(isbn);
+        //    return RedirectToAction("Get");
+        //}
     }
 }
 

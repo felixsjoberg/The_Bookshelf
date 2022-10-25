@@ -1,0 +1,33 @@
+﻿@page
+@model gruppArbete.Pages.CreateModel
+@{
+    ViewData["Title"] = "Add book";
+}
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Create Category</h2>
+            <hr />
+        </div>
+
+        <!-- Style and create new divs that fit & require right dataType for each property.-->
+        @{
+            foreach (var prop in Model.propList)
+            {
+                <div class="mb-3">
+                    <label asp-for="(Newbook.@prop.Name)">@prop.Name</label>
+                    <input  class="form-control" />
+                    <span asp-validation-for="Newbook.@prop.Name" class="text-danger"></span>
+                </div>
+            }
+        }
+
+
+        <button type="submit" class="btn btn-primary" style="width:150px">Create</button>
+        <a asp-page="/Index" class="btn btn-secondary" style="width:150px">
+            Back to List
+        </a>
+    </div>
+</form>
