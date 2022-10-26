@@ -11,8 +11,9 @@
 
 </head>
 <body>
-    <header> <!-- Change the navbar & fix it. -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <header>
+        <!-- Change the navbar & fix it. -->
+        <nav id="toppen"class="navbar navbar-expand-md navbar-dark bg-primary">
             <div class="d-flex w-50 order-0">
                 <a class="navbar-brand mr-1" href="/Index">Bookshelf</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
@@ -34,7 +35,7 @@
             </div>
             <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"></span>
         </nav>
-        
+
     </header>
 
 
@@ -44,11 +45,12 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted" style="margin-top: 20px;">
+    <footer class="border-top footer text-muted navbar-dark bg-primary" style="margin-top: 20px;">
         <div class="container">
-            &copy; 2022 - gruppArbete - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2022 - gruppArbete - <a href="#toppen" class="text-white">Back to Top</a>
         </div>
     </footer>
+    
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

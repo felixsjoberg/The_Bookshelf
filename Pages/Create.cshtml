@@ -6,7 +6,7 @@
 <h1>@ViewData["Title"]</h1>
 
 <form method="post">
-    <div class="border p-3 mt-4" style="width:80%;">
+    <div class="border p-3 mt-4">
         <div class="row pb-2">
             <h2 class="text-primary">Create Category</h2>
             <hr />
@@ -54,15 +54,15 @@
             <fieldset class="form-group">
                 <legend class="mt-4">Switches</legend>
                 <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <input class="form-check-input" asp-for="Books.NobelPriceWinner"type="checkbox" id="flexSwitchCheckDefault">
                     <label class="form-check-label" for="flexSwitchCheckDefault">Is the author a nobel price winner? </label>
                 </div>
                 <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <input class="form-check-input" asp-for="Books.Read"type="checkbox" id="flexSwitchCheckDefault">
                     <label class="form-check-label" for="flexSwitchCheckDefault">Have I read the book?</label>
                 </div>
                 <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked="">
+                    <input class="form-check-input" asp-for="Books.Ownership" type="checkbox" id="flexSwitchCheckDefault">
                     <label class="form-check-label" for="flexSwitchCheckDefault">Do I own the book?</label>
                 </div>
             </fieldset>
@@ -76,6 +76,9 @@
             @*<input type="checkbox" asp-for="NewPizza.IsGlutenFree" class="mr-5">*@
 
         </form>
+        <br /><br /><br /><br /><br /><br />
+
+        <!-- Save if I decide to go back to old version way. -->
         @*@{
             foreach (var prop in Model.propList)
             {
@@ -89,10 +92,3 @@
         }*@
     </div>
 </form>
-/*
-
-    "Publisher": "Simon & Schuster",
-    "Type": "Pocket",
-    
-    
-    "Image": "https://s1.adlibris.com/images/2656688/angels-and-demons.jpg"*/

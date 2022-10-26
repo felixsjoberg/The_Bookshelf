@@ -36,6 +36,7 @@ namespace gruppArbete.Pages
 
         }
 
+        // Below code is a work in progress..
         public IActionResult OnPost(Books NewBook)
         {
             if (ModelState.IsValid == false) // make sure fields that are req is filled.
