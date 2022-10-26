@@ -81,11 +81,7 @@
   --bs-code-color: #e83e8c;
   --bs-highlight-bg: #fff3cd;
 }
-/* För att undvika skrollning ovanför allt innehåll på hemsidan */
-html { 
-    overflow: hidden;
-    height: 100%;
-}
+
 *,
 *::before,
 *::after {

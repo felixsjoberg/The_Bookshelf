@@ -12,7 +12,7 @@ namespace gruppArbete.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
-        public JsonFileTaskService BooksService; //object av services
+        public JsonFileTaskService BooksService; //object of services, to be able to use method gettasks().
         public List<Books> books { get; set; }
 
         public IndexModel(ILogger<IndexModel> logger,

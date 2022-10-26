@@ -21,7 +21,7 @@ namespace gruppArbete.Services
 
             private string JsonFileName => Path.Combine(WebHostEnvironment.WebRootPath, "Data", "DataSourceInJson.json"); //Combining the website and the json file
 
-             public List<Books> GetTasks()
+             public List<Books>  GetTasks()
                 {
                 using var jsonFileReader = File.OpenText(JsonFileName);
                 return JsonSerializer.Deserialize<List<Books>>(jsonFileReader.ReadToEnd(),
@@ -30,10 +30,11 @@ namespace gruppArbete.Services
                         PropertyNameCaseInsensitive = true
                     });
                 }
-        
-        public static void SaveBook(Books NewBook)
+
+        //public static void SaveBook(List<Books> UpdateList)
+        public static void SaveBook(Books UpdateList)
         {
-            string strResultJson = JsonConvert.SerializeObject(NewBook);
+            string strResultJson = JsonConvert.SerializeObject(UpdateList);
             /* temporary json file, the one we should use below */
             File.WriteAllText(@"test.json", strResultJson);
 
