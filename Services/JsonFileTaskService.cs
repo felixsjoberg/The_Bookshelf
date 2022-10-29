@@ -32,9 +32,10 @@ namespace gruppArbete.Services
                 }
 
         //public static void SaveBook(List<Books> UpdateList)
-        public static void SaveBook(Books UpdateList)
+        public static void SaveBook(List<Books> UpdateList)
         {
             string strResultJson = JsonConvert.SerializeObject(UpdateList);
+            System.Console.WriteLine(strResultJson);
             /* temporary json file, the one we should use below */
             File.WriteAllText(@"test.json", strResultJson);
 
