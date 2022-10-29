@@ -5,10 +5,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace gruppArbete.Models
 {
-    // Root myDeserializedClass = JsonConvert.DeserializeObject<List<Root>>(myJsonResponse);
+    [Serializable]
     public class Books
     {
-
         [BindProperty]
         [Required]
         public string Title { get; set; }

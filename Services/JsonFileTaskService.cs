@@ -9,9 +9,11 @@ using Newtonsoft.Json;
 using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace gruppArbete.Services
-    {
+{
+
         public class JsonFileTaskService
         {
+
             public JsonFileTaskService(IWebHostEnvironment webHostEnvironment)
             {
                 WebHostEnvironment = webHostEnvironment;
@@ -19,7 +21,7 @@ namespace gruppArbete.Services
 
             public IWebHostEnvironment WebHostEnvironment { get; } // until here and above is just getting the website information
 
-            private string JsonFileName => Path.Combine(WebHostEnvironment.WebRootPath, "Data", "DataSourceInJson.json"); //Combining the website and the json file
+            private string JsonFileName => Path.Combine(WebHostEnvironment.WebRootPath, "Data", "test.json"); //Combining the website and the json file
 
              public List<Books>  GetTasks()
                 {
@@ -31,21 +33,23 @@ namespace gruppArbete.Services
                     });
                 }
 
-        //public static void SaveBook(List<Books> UpdateList)
-        public static void SaveBook(List<Books> UpdateList)
-        {
-            string strResultJson = JsonConvert.SerializeObject(UpdateList);
-            System.Console.WriteLine(strResultJson);
-            /* temporary json file, the one we should use below */
-            File.WriteAllText(@"test.json", strResultJson);
+            //public static void SaveBook(List<Books> UpdateList)
+            public static void SaveBook(List<Books> UpdateList)
+            {
+            
 
-            /* This one write over everything in the JSON file. */
-            //File.WriteAllText(@"wwwroot/Data/DataSourceInJson.json", strResultJson); 
+                var strResultJson = JsonConvert.SerializeObject(UpdateList);
+                System.Console.WriteLine(strResultJson);
+                /* temporary json file, the one we should use below */
+                File.WriteAllText(@"wwwroot/Data/test.json", strResultJson);
+
+                /* This one write over everything in the JSON file. */
+                //File.WriteAllText(@"wwwroot/Data/DataSourceInJson.json", strResultJson); 
+
+            }
 
         }
-
-    }
-    }
+  }
 
 
 

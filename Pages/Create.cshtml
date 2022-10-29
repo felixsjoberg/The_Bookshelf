@@ -12,32 +12,32 @@
             <h2 class="text-primary">Create Category</h2>
             <hr />
         </div>
-
+        
         <!-- Style and create new divs that fit & require right dataType for each property.-->
         <form method="post">
             <div>
-                <label class="col-form-label mt-4" asp-for="Books[0].Title">Title:</label>
-                <input type="text" class="form-control" asp-for="Books[0].Title" placeholder="Title..">
-                <span asp-validation-for="Books[0].Title" class="text-danger"></span>
+                <label class="col-form-label mt-4" asp-for="@Model.Books.Title">Title:</label>
+                <input type="text" class="form-control" asp-for="@Model.Books.Title" placeholder="Title..">
+                <span asp-validation-for="Books.Title" class="text-danger"></span>
             </div>
             <div>
-                <label class="col-form-label mt-4" asp-for="Books[0].Author">Author:</label>
-                <input type="text" class="form-control" asp-for="Books[0].Author" placeholder="Author..">
-                <span asp-validation-for="Books[0].Author" class="text-danger"></span>
+                <label class="col-form-label mt-4" asp-for="Books.Author">Author:</label>
+                <input type="text" class="form-control" asp-for="Books.Author" placeholder="Author..">
+                <span asp-validation-for="Books.Author" class="text-danger"></span>
             </div>
             <div>
-                <label class="col-form-label mt-4" asp-for="Books[0].ISBN">ISBN:</label>
-                <input type="number" class="form-control" asp-for="Books[0].ISBN" placeholder="ISBN..">
-                <span asp-validation-for="Books[0].ISBN" class="text-danger"></span>
+                <label class="col-form-label mt-4" asp-for="Books.ISBN">ISBN:</label>
+                <input type="number" class="form-control" asp-for="Books.ISBN" placeholder="ISBN..">
+                <span asp-validation-for="Books.ISBN" class="text-danger"></span>
             </div>
             <div>
-                <label class="col-form-label mt-4" asp-for="Books[0].Price">Price:</label>
-                <input type="number" class="form-control" asp-for="Books[0].Price" placeholder="Price..">
+                <label class="col-form-label mt-4" asp-for="Books.Price">Price:</label>
+                <input type="number" class="form-control" asp-for="Books.Price" placeholder="Price..">
             </div>
 
             <div class="form-group">
-                <label asp-for="Books[0].Genre" class="form-label mt-4">Genre:</label>
-                <select class="form-select" asp-for="Books[0].Genre">
+                <label asp-for="Books.Genre" class="form-label mt-4">Genre:</label>
+                <select class="form-select" asp-for="Books.Genre">
                     <option>Thriller</option>
                     <option>Sci-Fi</option>
                     <option>Geografi</option>
@@ -46,8 +46,8 @@
                 </select>
             </div>
             <div class="form-group">
-                <label asp-for="Books[0].Language" class="form-label mt-4">Language:</label>
-                <select class="form-select" asp-for="Books[0].Language">
+                <label asp-for="Books.Language" class="form-label mt-4">Language:</label>
+                <select class="form-select" asp-for="Books.Language">
                     <option>Svenska</option>
                     <option>Engelska</option>
                     <option>Spanska</option>
@@ -58,34 +58,34 @@
                 </select>
             </div>
             <div>
-                <label class="col-form-label mt-4" asp-for="Books[0].ReleaseDate">Release Date:</label>
-                <input type="date" class="form-control" asp-for="Books[0].ReleaseDate" placeholder="Release Date..">
+                <label class="col-form-label mt-4" asp-for="Books.ReleaseDate">Release Date:</label>
+                <input type="date" class="form-control" asp-for="Books.ReleaseDate" placeholder="Release Date..">
             </div>
 
             <div>
-                <label class="col-form-label mt-4" asp-for="Books[0].Publisher">Publisher:</label>
-                <input type="text" class="form-control" asp-for="Books[0].Publisher" placeholder="Publisher..">
+                <label class="col-form-label mt-4" asp-for="Books.Publisher">Publisher:</label>
+                <input type="text" class="form-control" asp-for="Books.Publisher" placeholder="Publisher..">
             </div>
 
             <fieldset class="form-group">
                 <legend class="mt-4">Switches</legend>
                 <div class="form-check form-switch">
-                    <input class="form-check-input" asp-for="Books[0].NobelPriceWinner" type="checkbox" id="flexSwitchCheckDefault">
+                    <input class="form-check-input" asp-for="Books.NobelPriceWinner" type="checkbox" id="flexSwitchCheckDefault">
                     <label class="form-check-label" for="flexSwitchCheckDefault">Is the author a nobel price winner? </label>
                 </div>
                 <div class="form-check form-switch">
-                    <input class="form-check-input" asp-for="Books[0].Read" type="checkbox" id="flexSwitchCheckDefault">
+                    <input class="form-check-input" asp-for="Books.Read" type="checkbox" id="flexSwitchCheckDefault">
                     <label class="form-check-label" for="flexSwitchCheckDefault">Have I read the book?</label>
                 </div>
                 <div class="form-check form-switch">
-                    <input class="form-check-input" asp-for="Books[0].Ownership" type="checkbox" id="flexSwitchCheckDefault">
+                    <input class="form-check-input" asp-for="Books.Ownership" type="checkbox" id="flexSwitchCheckDefault">
                     <label class="form-check-label" for="flexSwitchCheckDefault">Do I own the book?</label>
                 </div>
             </fieldset>
             <div>
-                <label class="col-form-label mt-4" asp-for="Books[0].Image">Image URL:</label>
-                <input type="url" class="form-control" asp-for="Books[0].Image" placeholder="Image URL..">
-                <span asp-validation-for="Books[0].Image" class="text-danger"></span>
+                <label class="col-form-label mt-4" asp-for="Books.Image">Image URL:</label>
+                <input type="url" class="form-control" asp-for="Books.Image" placeholder="Image URL..">
+                <span asp-validation-for="Books.Image" class="text-danger"></span>
             </div><br />
 
             <button type="submit" class="btn btn-primary" style="width:150px">Create</button>
@@ -94,7 +94,6 @@
             </a>
 
         </form>
-        <br /><br /><br /><br /><br /><br />
 
         <!-- Save if I decide to go back to old version way. -->
         @*@{
