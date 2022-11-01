@@ -1,0 +1,67 @@
+﻿@page
+@model gruppArbete.Pages.ReviewModel
+@{
+	ViewData["Title"] = "Book Details";
+
+}
+
+<div class="text-center">
+	
+@*@foreach(var book in Model.BookReview){
+
+		<div class="card" style="width: 18rem;">
+			<img src=" @book.Image" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				<a href="#" class="btn btn-primary">Write a Review</a>
+			</div>
+		</div>
+
+}
+*@
+
+	<div class="card" style="width: 18rem;">
+		<img src="@Model.Book.Image" class="card-img-top" alt="...">
+		<div class="card-body">
+			<h5 class="card-title">@Model.Book.Title</h5>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		</div>
+		<ul class="list-group list-group-flush">
+			<li class="list-group-item">An item</li>
+			<li class="list-group-item">A second item</li>
+			<li class="list-group-item">A third item</li>
+		</ul>
+		<div class="card-body">
+			<a href="#" class="card-link">Card link</a>
+			<a href="#" class="card-link">Another link</a>
+		</div>
+	</div>
+
+
+	<form method="post">
+           
+		<div class="mb-3">
+			<label for="exampleFormControlTextarea1" class="form-label">Add a Review</label>
+			<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="review">
+				
+			</textarea>
+			<input hidden asp-for="Book.ISBN" name="isbn">
+
+			</input>
+			@foreach (var item in Model.Book.Review)
+			{
+				<div> @item</div>
+			}
+			<button type="submit" class="btn btn-primary" style="width:150px">Submit</button>
+			<a asp-page="/Index" class="btn btn-secondary" style="width:150px">
+				Back to List
+			</a>
+		</div>
+
+           
+            @*<input type="checkbox" asp-for="NewPizza.IsGlutenFree" class="mr-5">*@
+
+        </form>
+	
+</div>

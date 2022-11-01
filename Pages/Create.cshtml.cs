@@ -30,7 +30,7 @@ namespace gruppArbete.Pages
 
         public void OnGet()
         {
-             propList = NewBook.GetType().GetProperties();
+            propList = NewBook.GetType().GetProperties();
             books = BooksService.GetTasks();
 
 

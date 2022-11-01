@@ -25,6 +25,8 @@ namespace gruppArbete.Models
         public string Publisher { get; set; }
 
         public string Image { get; set; }
+
+        public string[] Review { get; set; }
     }
 
 

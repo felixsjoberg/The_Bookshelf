@@ -42,6 +42,24 @@ namespace gruppArbete.Services
             //File.WriteAllText(@"wwwroot/Data/DataSourceInJson.json", strResultJson); 
 
         }
+        public void AddReviews(string id, string review)
+        {
+            var books = GetTasks();
+            if (books.First(x => x.ISBN == id).Review == null)
+            {
+                books.First(x => x.ISBN == id).Review = new string[] { review };
+            }
+            else
+            {
+                var newReview = books.First(x => x.ISBN == id).Review.ToList();
+                newReview.Add(review);
+                books.First(x => x.ISBN == id).Review = newReview.ToArray();
+            }
+
+            string output = JsonConvert.SerializeObject(books, Formatting.Indented);
+            //File.Delete("DataSourceInJson.json");
+            File.WriteAllText(JsonFileName, output);
+        }
 
     }
     }
