@@ -21,7 +21,7 @@ namespace gruppArbete.Services
 
             public IWebHostEnvironment WebHostEnvironment { get; } // until here and above is just getting the website information
 
-            private string JsonFileName => Path.Combine(WebHostEnvironment.WebRootPath, "Data", "test.json"); //Combining the website and the json file
+            private string JsonFileName => Path.Combine(WebHostEnvironment.WebRootPath, "Data", "DataSourceInJson.json"); //Combining the website and the json file
 
              public List<Books>  GetTasks()
                 {
