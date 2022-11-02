@@ -18,9 +18,6 @@ namespace gruppArbete.Pages
         public Books Books { get; set; }
         public List<Books> books { get; set; }
 
-        public PropertyInfo[] propList;//list with all the different properties from services (list<books>)
-
-        //public Books BookProperties = new Books(); //1.Everything in the create  comes here from the view
         public JsonFileTaskService BooksService; //object of services
         private readonly ILogger<IndexModel> _logger;
 
@@ -33,7 +30,6 @@ namespace gruppArbete.Pages
 
         public void OnGet()
         {
-            //propList = BookProperties.GetType().GetProperties();
             books = BooksService.GetTasks();
 
         }
