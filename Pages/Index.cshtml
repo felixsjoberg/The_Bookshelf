@@ -14,11 +14,11 @@
 
         </blockquote>
         <figcaption class="blockquote-footer">
-            Cicero </figcaption>
+            Cicero
+        </figcaption>
     </figure>
     </p>
 </div>
-
 
 <div class="container p-1">
     <div class="row pt-4">
@@ -36,22 +36,26 @@
             <div class="row">
                 @foreach (var book in Model.books)
                 {
-                    
+
                     <div class="col-md-3">
-                        <div class="card mb-4" style="min-height: 450px;">
+                        <div class="card mb-4" style="min-height: 450px; max-width 75%;">
                             @*<img style="max-height: 20%;" src="@book.image" alt="@book.title book cover">*@
-                            
-                            <img class="bd-placeholder-img card-img-top" height="280" src="@book.Image" role="img" >
+
+                            <img class="bd-placeholder-img card-img-top" height="280" src="@book.Image" role="img">
 
                             <div class="card-body">
                                 <h5 class="card-title">@book.Title</h5>
                                 <h6 class="card-subtitle text-muted">By @book.Author</h6>
                             </div>
                             <div style="text-align:center;">
-                                <button type="button" style="margin-bottom:10px;"class="btn btn-warning">Book Review</button>
+                                <button type="button" style="margin-bottom:10px;" class="btn btn-warning">Book Review</button>
+                            </div>
+                            <div class="card-footer" style="text-align:right;">
+                                    <i class="bi bi-star"></i>
+                                <i class="bi bi-three-dots-vertical"></i>
                             </div>
                         </div>
-                     </div>
+                    </div>
                 }
             </div>
         </div>

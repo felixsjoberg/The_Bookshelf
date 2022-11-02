@@ -687,7 +687,9 @@ progress {
 .row > * {
   flex-shrink: 0;
   width: 100%;
-  max-width: 100%;
+  max-width: 55%;
+  justify-content: center;
+
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
@@ -4216,6 +4218,7 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   height: var(--bs-card-height);
+  width:85%;
   word-wrap: break-word;
   background-color: var(--bs-card-bg);
   background-clip: border-box;
@@ -10892,7 +10895,8 @@ textarea.form-control-lg {
 .navbar {
   border-style: solid;
   border-width: 2px;
-  border-radius: 25px 25px 55px 5px/5px 55px 25px 25px;
+/*  border-radius: 25px 25px 55px 5px/5px 55px 25px 25px;*/
+padding:4px;
 }
 .navbar.bg-light {
   border-color: #333;
@@ -11186,9 +11190,9 @@ select.form-control {
   border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
 }
 
-.card {
+/*.card {
   border-radius: 5px 5px 5px 5px/25px 25px 25px 5px;
-}
+}*/
 .card-outline-primary, .card-outline-success, .card-outline-info, .card-outline-warning, .card-outline-danger {
   border-width: 2px;
 }
