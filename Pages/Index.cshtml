@@ -48,7 +48,7 @@
                                 <h6 class="card-subtitle text-muted">By @book.Author</h6>
                             </div>
                             <div style="text-align:center;">
-                                <button type="button" style="margin-bottom:10px;" class="btn btn-warning">Book Review</button>
+                                <a  asp-page="/Review" asp-route-id=@book.ISBN style="margin-bottom:10px;" class="btn btn-warning">Book Review</a>
                             </div>
                             <div class="card-footer" style="text-align:right;">
                                     <i class="bi bi-star"></i>
