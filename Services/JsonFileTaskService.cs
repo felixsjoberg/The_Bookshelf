@@ -66,6 +66,30 @@ namespace gruppArbete.Services
             File.WriteAllText(@"wwwroot/Data/test.json", output);
         }
 
+        public void Edit(Books updatedBook)
+        {
+            var books = GetTasks();
+            System.Console.WriteLine(updatedBook.Author);
+            System.Console.WriteLine(updatedBook.ISBN);
+            var oldBook = books.First(x => x.ISBN == updatedBook.ISBN);
+
+            oldBook.Title = updatedBook.Title;
+            oldBook.Author = updatedBook.Author;
+            oldBook.Genre = updatedBook.Genre;
+            oldBook.Language = updatedBook.Language;
+            oldBook.ReleaseDate = updatedBook.ReleaseDate;
+            oldBook.Read= updatedBook.Read;
+            oldBook.Price = updatedBook.Price;
+            oldBook.NobelPriceWinner = updatedBook.NobelPriceWinner;
+            oldBook.Ownership = updatedBook.Ownership;
+            oldBook.Publisher = updatedBook.Publisher;
+            oldBook.Image = updatedBook.Image;
+
+            string output = JsonConvert.SerializeObject(books, Formatting.Indented);
+            //File.Delete("DataSourceInJson.json");
+            File.WriteAllText(@"wwwroot/Data/test.json", output);
+        }
+
     }
   }
 

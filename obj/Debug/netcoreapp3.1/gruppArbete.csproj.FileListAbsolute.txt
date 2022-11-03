@@ -1193,3 +1193,4 @@ C:/Users/helen/source/repos/felixsjoberg/gruppArbete/obj/Debug/netcoreapp3.1/gru
 /Users/felix/Projects/gruppArbete-senaste/obj/Debug/netcoreapp3.1/gruppArbete.csproj.CopyComplete
 /Users/felix/Projects/gruppArbete-senaste/obj/Debug/netcoreapp3.1/gruppArbete.genruntimeconfig.cache
 /Users/felix/Projects/gruppArbete-senaste/obj/Debug/netcoreapp3.1/Razor/Pages/Review.cshtml.g.cs
+/Users/felix/Projects/gruppArbete-senaste/obj/Debug/netcoreapp3.1/Razor/Pages/Edit.cshtml.g.cs

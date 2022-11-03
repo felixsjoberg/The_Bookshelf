@@ -5,12 +5,12 @@
     "ISBN": "3734206456",
     "Genre": "Geografi",
     "Language": "Italienska",
-    "ReleaseDate": "2015",
+    "ReleaseDate": null,
     "Read": false,
-    "Price": 100,
+    "Price": 1003,
     "NobelPriceWinner": false,
     "Ownership": false,
-    "Publisher": "Random House Business Books",
+    "Publisher": "",
     "Image": "https://s1.adlibris.com/images/64407130/dk-eyewitness-top-10-travel-guide-venice.jpg",
     "Review": [
       ""
