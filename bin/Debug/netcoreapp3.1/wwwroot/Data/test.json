@@ -12,7 +12,9 @@
     "Ownership": false,
     "Publisher": "Random House Business Books",
     "Image": "https://s1.adlibris.com/images/64407130/dk-eyewitness-top-10-travel-guide-venice.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Angels and Demons",
@@ -27,7 +29,9 @@
     "Ownership": false,
     "Publisher": "Simon & Schuster",
     "Image": "https://s1.adlibris.com/images/2656688/angels-and-demons.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "The Chemist",
@@ -42,7 +46,9 @@
     "Ownership": true,
     "Publisher": "Little Brown and Company",
     "Image": "https://s2.adlibris.com/images/29254964/chemist.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "The Merchant of Venice",
@@ -57,7 +63,9 @@
     "Ownership": false,
     "Publisher": "Simon & Schuster",
     "Image": "https://s1.adlibris.com/images/11915883/the-merchant-of-venice.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Ancient Greece",
@@ -72,7 +80,9 @@
     "Ownership": false,
     "Publisher": "DK Children",
     "Image": "https://s2.adlibris.com/images/1195071/ancient-greece.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "The Da Vinci Code",
@@ -87,7 +97,9 @@
     "Ownership": true,
     "Publisher": "Doubleday",
     "Image": "https://s2.adlibris.com/images/6340227/da-vinci-code.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Inferno",
@@ -102,7 +114,9 @@
     "Ownership": false,
     "Publisher": "Doubleday",
     "Image": "https://s2.adlibris.com/images/11569373/inferno.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Harry Potter and The Philosopher's Stone",
@@ -117,7 +131,9 @@
     "Ownership": true,
     "Publisher": "Bloomsbury",
     "Image": "https://s2.adlibris.com/images/7003163/harry-potter-and-the-philosophers-stone.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "The Witcher: The Last Wish",
@@ -132,7 +148,9 @@
     "Ownership": true,
     "Publisher": "SuperNOWA",
     "Image": "https://s1.adlibris.com/images/56511466/last-wish.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Eat, Pray, Love",
@@ -147,7 +165,9 @@
     "Ownership": false,
     "Publisher": "Penguin",
     "Image": "https://s2.adlibris.com/images/4030304/eat-pray-love.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Åren",
@@ -162,7 +182,9 @@
     "Ownership": false,
     "Publisher": "Norstedts",
     "Image": "https://s2.adlibris.com/images/64971146/aren.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Malma Station",
@@ -177,7 +199,9 @@
     "Ownership": true,
     "Publisher": "Albert Bonniers Publish",
     "Image": "https://s1.adlibris.com/images/63140428/malma-station.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Atomic Habits",
@@ -192,7 +216,9 @@
     "Ownership": true,
     "Publisher": "Random House Business Books",
     "Image": "https://s2.adlibris.com/images/30823115/atomic-habits.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Stöld",
@@ -207,7 +233,9 @@
     "Ownership": false,
     "Publisher": "Romanus Selling",
     "Image": "https://s1.adlibris.com/images/62352422/stold.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Shuggie Bain",
@@ -222,7 +250,9 @@
     "Ownership": false,
     "Publisher": "Albert Bonniers Publish",
     "Image": "https://s2.adlibris.com/images/62684185/shuggie-bain.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Tänka, snabbt och långsamt",
@@ -237,7 +267,9 @@
     "Ownership": true,
     "Publisher": "Volante",
     "Image": "https://s2.adlibris.com/images/38311996/tanka-snabbt-och-langsamt.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Hjärnstark : hur motion och träning stärker din hjärna",
@@ -252,7 +284,9 @@
     "Ownership": true,
     "Publisher": "Månpocket",
     "Image": "https://s1.adlibris.com/images/43499150/hjarnstark-hur-motion-och-traning-starker-din-hjarna.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Morgonstjärnan",
@@ -267,7 +301,9 @@
     "Ownership": true,
     "Publisher": "Norstedts",
     "Image": "https://s1.adlibris.com/images/61702950/morgonstjarnan.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Hjärtlinjer",
@@ -282,7 +318,9 @@
     "Ownership": true,
     "Publisher": "Albert Bonniers Publish",
     "Image": "https://s2.adlibris.com/images/61803473/hjartlinjer.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Innan floden tar oss",
@@ -297,7 +335,9 @@
     "Ownership": false,
     "Publisher": "Norstedts",
     "Image": "https://s2.adlibris.com/images/247312/innan-floden-tar-oss.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Hälsogåtan : evolution, forskning och 48 konkreta råd",
@@ -312,7 +352,9 @@
     "Ownership": false,
     "Publisher": "Bonnier Fakta",
     "Image": "https://s1.adlibris.com/images/55216958/halsogatan-evolution-forskning-och-48-konkreta-rad.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "En man som heter Ove jubileumsutgåva - signerad",
@@ -327,7 +369,9 @@
     "Ownership": true,
     "Publisher": "Bokförlaget Forum",
     "Image": "https://s1.adlibris.com/images/64848138/signerad-en-man-som-heter-ove-jubileumsutgava.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Och bilen går bra?",
@@ -342,7 +386,9 @@
     "Ownership": true,
     "Publisher": "Månpocket",
     "Image": "https://s1.adlibris.com/images/54707047/och-bilen-gar-bra.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   },
   {
     "Title": "Factfulness : tio knep som hjälper dig förstå världen",
@@ -357,6 +403,8 @@
     "Ownership": false,
     "Publisher": "Natur Kultur Allmänlitteratur",
     "Image": "https://s1.adlibris.com/images/57265299/factfulness-tio-knep-som-hjalper-dig-forsta-varlden.jpg",
-    "Review": null
+    "Review": [
+      ""
+    ]
   }
 ]

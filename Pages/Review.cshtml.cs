@@ -33,7 +33,6 @@ namespace gruppArbete.Pages
         public void OnPost()
         {
 
-
             var review = Request.Form["review"];
             var isbn = Request.Form["isbn"];
             BookService.AddReviews(isbn, review);
