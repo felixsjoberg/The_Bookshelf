@@ -38,15 +38,17 @@ namespace gruppArbete.Pages
         {
             books = BooksService.GetTasks();
 
-            if (ModelState.IsValid == false) // make sure fields that are req is filled.
+            // make sure fields that are req is filled.
+            if (ModelState.IsValid == false) 
             {
                 TempData["error"] = "Error while creating book";
 
                 return Page();
             }
             books.Add(Books);
-            
-            Services.JsonFileTaskService.SaveBook(books); // this sends the update list onpost to JsonFiletaskservice method, which then writes to json-file
+
+            // this sends the updated list onpost to with new book to JsonFiletaskservice method, which then writes to json-file.
+            Services.JsonFileTaskService.SaveBook(books); 
             TempData["success"] = "Book created successfully";
             return RedirectToAction("./Index");
         }

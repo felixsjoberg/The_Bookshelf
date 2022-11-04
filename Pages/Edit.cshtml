@@ -17,13 +17,11 @@
             <div class="col-6 text-end">
                 <form asp-page-handler="OnPostDelete" method="post">
                     <input hidden asp-for="Books.ISBN">
-                    <button class="btn disabled btn-danger">Delete</button>
+                    <button class="btn btn-danger">Delete</button>
                 </form>
             </div>
         </div>
 
-
-        <!-- Style and create new divs that fit & require right dataType for each property.-->
         <form method="post">
             <div>
                 <label class="col-form-label mt-2" asp-for="Books.Title">Title:</label>

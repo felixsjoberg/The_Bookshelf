@@ -26,11 +26,6 @@ namespace gruppArbete.Pages
         }
         public void OnGet(string id)
         {
-            //var noblePrice = Book.NobelPriceWinner;
-            //if (noblePrice == true)
-            //{
-                
-            //}
             BookReview = BookService.GetTasks();
 
             // a mini loop to read the list of books and search for ISBN as an ID

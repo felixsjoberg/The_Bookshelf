@@ -38,14 +38,15 @@ namespace gruppArbete.Pages
         {
 
             BooksService.Edit(Books);
-            TempData["success"] = "Book updated successfully";
+            if (Books.Title == null)
+            {
+                TempData["note"] = "Book deleted successfully";
+            }
+            else
+            {
+                TempData["success"] = "Book updated successfully";
+            }
             return RedirectToAction("./Index");
-        }
-
-        public IActionResult OnPostDelete()
-        {
-            BooksService.Delete(Books.ISBN);
-            return RedirectToAction("Get");
         }
 
     }

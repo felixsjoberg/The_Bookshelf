@@ -33,18 +33,12 @@ namespace gruppArbete.Services
                     });
                 }
 
-            //public static void SaveBook(List<Books> UpdateList)
             public static void SaveBook(List<Books> UpdateList)
             {
             
-
                 var strResultJson = JsonConvert.SerializeObject(UpdateList);
                 System.Console.WriteLine(strResultJson);
-                /* temporary json file, the one we should use below */
                 File.WriteAllText(@"wwwroot/Data/test.json", strResultJson);
-
-                /* This one write over everything in the JSON file. */
-                //File.WriteAllText(@"wwwroot/Data/DataSourceInJson.json", strResultJson); 
 
             }
         public void AddReviews(string id, string review)
@@ -68,11 +62,9 @@ namespace gruppArbete.Services
             File.WriteAllText(@"wwwroot/Data/test.json", output);
         }
 
-        public void Edit(Books updatedBook)
+        public void Edit(Books updatedBook) // method resign oldbook info with updated.
         {
             var books = GetTasks();
-            System.Console.WriteLine(updatedBook.Author);
-            System.Console.WriteLine(updatedBook.ISBN);
             var oldBook = books.First(x => x.ISBN == updatedBook.ISBN);
 
             oldBook.Title = updatedBook.Title;
@@ -87,21 +79,11 @@ namespace gruppArbete.Services
             oldBook.Publisher = updatedBook.Publisher;
             oldBook.Image = updatedBook.Image;
 
+            //When use delete, the title will be null & therefor not be written to updated list.
+            books = books.Where(b => b.Title != null).ToList();
             string output = JsonConvert.SerializeObject(books, Formatting.Indented);
-            //File.Delete("DataSourceInJson.json");
             File.WriteAllText(@"wwwroot/Data/test.json", output);
         }
-
-        public void Delete(string isbn)
-        {
-            var books = GetTasks();
-            var book = books.FirstOrDefault(p => p.ISBN == isbn);
-            if (book is null)
-                return;
-
-            books.Remove(book);
-        }
-
     }
   }
 

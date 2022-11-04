@@ -25,3 +25,16 @@
         toastr.error('@TempData["error"]');
     </script>
 }
+@if (TempData["note"] != null)
+{
+    <style>
+        #toast-container > .toast-error {
+            background-color: #ffc107;
+        }
+    </style>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+        toastr.error('@TempData["note"]');
+    </script>
+}

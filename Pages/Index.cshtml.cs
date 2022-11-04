@@ -32,14 +32,6 @@ namespace gruppArbete.Pages
         {
             return book.Read ? "Yes" : "No";
         }
-
-        
-
-        //public IActionResult OnPostDelete(int isbn)
-        //{
-        //    BooksService.Delete(isbn);
-        //    return RedirectToAction("Get");
-        //}
     }
 }
 

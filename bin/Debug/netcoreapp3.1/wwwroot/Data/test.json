@@ -390,24 +390,5 @@
     "Image": "https://s1.adlibris.com/images/57265299/factfulness-tio-knep-som-hjalper-dig-forsta-varlden.jpg",
     "Review": null,
     "Description": "I Factfulness visar Hans Rosling, Ola Rosling och Anna Rosling Rönnlund varför vi ständigt missförstår världens utveckling, och vad vi kan göra för att rätta till våra missuppfattningar. Med utgångspunkt i tio misstag vår hjärna gör visar de hur vi kan bryta med våra tankefel och förstå världen bättre. Med samma passion och folkbildningsiver som gjort Hans Rosling berömd visar han hur vi alla kan slippa stressas av en föråldrad bild av världen. Bara genom att ha en världsbild grundad på fakta kan medborgare, politiker och företagsledare fatta rätt beslut i en globaliserad samtid."
-  },
-  {
-    "Title": "Dummy New Book",
-    "Author": "Dummy author",
-    "ISBN": "9090909090",
-    "Genre": "Geografi",
-    "Language": "Franska",
-    "ReleaseDate": "2000-10-19",
-    "Read": true,
-    "Price": 80,
-    "NobelPriceWinner": true,
-    "Ownership": false,
-    "Publisher": "Dummy aithor",
-    "Image": "http://images.amazon.com/images/P/0596004613.01._PE30_PI_SCMZZZZZZZ_.jpg",
-    "Review": [
-      "Dummy First Review",
-      "this was a nice book"
-    ],
-    "Description": null
   }
 ]
