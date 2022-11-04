@@ -5,16 +5,15 @@
     "ISBN": "3734206456",
     "Genre": "Geografi",
     "Language": "Italienska",
-    "ReleaseDate": null,
+    "ReleaseDate": "2015",
     "Read": false,
-    "Price": 1003,
+    "Price": 100,
     "NobelPriceWinner": false,
     "Ownership": false,
-    "Publisher": "",
+    "Publisher": "Random House Business Books",
     "Image": "https://s1.adlibris.com/images/64407130/dk-eyewitness-top-10-travel-guide-venice.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "The ultimate guide to this extraordinary and colourful city. From the meandering canals to world-class art galleries, all the must-sees are covered in trouble-free Top 10 lists. This richly illustrated guide is highly detailed and with the addition of a map, it is the ideal travel companion. "
   },
   {
     "Title": "Angels and Demons",
@@ -29,43 +28,42 @@
     "Ownership": false,
     "Publisher": "Simon & Schuster",
     "Image": "https://s1.adlibris.com/images/2656688/angels-and-demons.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "CERN Institute, Switzerland: a world-renowned scientist is found brutally murdered with a mysterious symbol seared onto his chest. The Vatican, Rome: the College of Cardinals assembles to elect a new pope. Somewhere beneath them, an unstoppable bomb of terrifying power relentlessly counts down to oblivion."
   },
   {
     "Title": "The Chemist",
     "Author": "Stephenie Meyer",
     "ISBN": "0751570044",
-    "Genre": "Triller",
+    "Genre": "Thriller",
     "Language": "Engelska",
-    "ReleaseDate": "2016",
-    "Read": true,
-    "Price": 95,
+    "ReleaseDate": null,
+    "Read": false,
+    "Price": 105,
     "NobelPriceWinner": false,
     "Ownership": true,
     "Publisher": "Little Brown and Company",
     "Image": "https://s2.adlibris.com/images/29254964/chemist.jpg",
     "Review": [
-      ""
-    ]
+      "new review"
+    ],
+    "Description": "In this gripping page-turner, an ex-agent on the run from her former employers must take one more case to clear her name and save her life.She used to work for the U.S. government, but very few people ever knew that. An expert in her field, she was one of the darkest secrets of an agency so clandestine it doesn't even have a name. And when they decided she was a liability, they came for her without warning."
   },
   {
     "Title": "The Merchant of Venice",
     "Author": "William Shakespeare",
     "ISBN": "0141396547",
-    "Genre": "Drama",
+    "Genre": "Thriller",
     "Language": "Engelska",
-    "ReleaseDate": "1969",
+    "ReleaseDate": null,
     "Read": false,
     "Price": 84,
     "NobelPriceWinner": false,
-    "Ownership": false,
+    "Ownership": true,
     "Publisher": "Simon & Schuster",
     "Image": "https://s1.adlibris.com/images/11915883/the-merchant-of-venice.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "Antonio, a Venetian merchant, wishes to help his friend get money to impress a rich heiress. But he is forced to borrow the sum from a cynical, abused Jewish moneylender, Shylock, and signs a chilling contract to honour the debt with a pound of his own flesh. An ambiguous, complex and controversial comedy, The Merchant of Venice explores prejudice, marriage, money and the true nature of justice in an unforgiving world."
   },
   {
     "Title": "Ancient Greece",
@@ -80,9 +78,8 @@
     "Ownership": false,
     "Publisher": "DK Children",
     "Image": "https://s2.adlibris.com/images/1195071/ancient-greece.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "This compact yet comprehensive history brings ancient Greek civilization alive, from its Stone Age roots to the fourth century B.C.A highly readable account of ancient Greece.—Kirkus ReviewsFocusing on the development of the Greek city-state and the society, culture, and architecture of Athens in its Golden Age, Thomas R. Martin integrates political, military, social, and cultural history in a book that will appeal to students and general readers alike. Now in its second edition, this classic work now features new maps and illustrations, a new introduction, and updates throughout."
   },
   {
     "Title": "The Da Vinci Code",
@@ -97,9 +94,8 @@
     "Ownership": true,
     "Publisher": "Doubleday",
     "Image": "https://s2.adlibris.com/images/6340227/da-vinci-code.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "While in Paris on business, Harvard symbologist Robert Langdon receives an urgent late-night phone call: the elderly curator of the Louvre has been murdered inside the museum. Near the body, police have found a baffling cipher. While working to solve the enigmatic riddle, Langdon is stunned to discover it leads to a trail of clues hidden in the works of Da Vinci -- clues visible for all to see -- yet ingeniously disguised by the painter. Langdon joins forces with a gifted French cryptologist, Sophie Neveu, and learns the late curator was involved in the Priory of Sion -- an actual secret society whose members included Sir Isaac Newton, Botticelli, Victor Hugo, and Da Vinci, among others. In a breathless race through Paris, London, and beyond, Langdon and Neveu match wits with a faceless powerbroker who seems to anticipate their every move. Unless Langdon and Neveu can decipher the labyrinthine puzzle in time, the Priory's ancient secret -- and an explosive hysterical truth -- will be lost forever."
   },
   {
     "Title": "Inferno",
@@ -114,9 +110,8 @@
     "Ownership": false,
     "Publisher": "Doubleday",
     "Image": "https://s2.adlibris.com/images/11569373/inferno.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "Florence: Harvard symbologist Robert Langdon awakes in a hospital bed with no recollection of where he is or how he got there. Nor can he explain the origin of the macabre object that is found hidden in his belongings. A threat to his life will propel him and a young doctor, Sienna Brooks, into a breakneck chase across the city."
   },
   {
     "Title": "Harry Potter and The Philosopher's Stone",
@@ -131,9 +126,8 @@
     "Ownership": true,
     "Publisher": "Bloomsbury",
     "Image": "https://s2.adlibris.com/images/7003163/harry-potter-and-the-philosophers-stone.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "When a letter arrives for unhappy but ordinary Harry Potter, a decade-old secret is revealed to him that apparently he's the last to know. His parents were wizards, killed by a Dark Lord's curse when Harry was just a baby, and which he somehow survived. Leaving his unsympathetic aunt and uncle for Hogwarts, a wizarding school brimming with ghosts and enchantments, Harry stumbles upon a sinister mystery when he finds a three-headed dog guarding a room on the third floor. Then he hears of a missing stone with astonishing powers which could be valuable, dangerous - or both. An incredible adventure is about to begin!"
   },
   {
     "Title": "The Witcher: The Last Wish",
@@ -148,9 +142,8 @@
     "Ownership": true,
     "Publisher": "SuperNOWA",
     "Image": "https://s1.adlibris.com/images/56511466/last-wish.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "Introducing Geralt the Witcher - revered and hated - who holds the line against the monsters plaguing humanity in the bestselling series that inspired the Witcher video games and a major Netflix show.Geralt of Rivia is a Witcher, a man whose magic powers and lifelong training have made him a brilliant fighter and a merciless assassin. Yet he is no ordinary killer: he hunts the vile fiends that ravage the land and attack the innocent. But not everything monstrous-looking is evil; not everything fair is good . . . and in every fairy tale there is a grain of truth."
   },
   {
     "Title": "Eat, Pray, Love",
@@ -166,8 +159,9 @@
     "Publisher": "Penguin",
     "Image": "https://s2.adlibris.com/images/4030304/eat-pray-love.jpg",
     "Review": [
-      ""
-    ]
+      "very nice book"
+    ],
+    "Description": "A bitter divorce and a turbulent love affair later, Elizabeth Gilbert emerges battered and bewildered and realises it is time to pursue her own journey in search of three things she has been missing - pleasure, devotion and balance. So, she travels to Rome, India, and Bali. This is a story about a woman's search for happiness."
   },
   {
     "Title": "Åren",
@@ -183,8 +177,9 @@
     "Publisher": "Norstedts",
     "Image": "https://s2.adlibris.com/images/64971146/aren.jpg",
     "Review": [
-      ""
-    ]
+      "First Review Here"
+    ],
+    "Description": "Åren är en berättelse om tiden mellan 1941 till 2006, från författaren Annie Ernaux uppväxt i en arbetarklassfamilj i Normandie, via katolsk privatskola, till tiden som lärare i litteratur i Paris, förortslivet, de två sönerna och slutligen skilsmässan. Men det är inte en genomsnittlig självbiografi, utan ett slags egensinnigt kollektivt minne. Ernaux uppfinner en ny stil som är subjektiv och opersonlig, privat och allmän, och en ny genre - den kollektiva självbiografin - för att på så sätt fånga tidens gång."
   },
   {
     "Title": "Malma Station",
@@ -199,9 +194,8 @@
     "Ownership": true,
     "Publisher": "Albert Bonniers Publish",
     "Image": "https://s1.adlibris.com/images/63140428/malma-station.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "Alex Schulmans nya roman utspelar sig på ett tåg. Fem personer är på resa genom Sverige: ett gift par i kris, en ensamstående far och hans dotter, och en kvinna som söker svaret på en gåta som hennes mamma lämnat efter sig. De reser alla mot Malma station och varken de eller läsaren vet hur deras öden hänger samman, eller anar att det som händer på slutdestinationen kommer att omdefiniera deras liv. Malma station är en drabbande berättelse om familjehemligheter och oförrätter som gått i arv genom generationer – och jakten på sanningen som kan förändra allt."
   },
   {
     "Title": "Atomic Habits",
@@ -216,9 +210,8 @@
     "Ownership": true,
     "Publisher": "Random House Business Books",
     "Image": "https://s2.adlibris.com/images/30823115/atomic-habits.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "People think when you want to change your life, you need to think big. But world-renowned habits expert James Clear has discovered another way. He knows that real change comes from the compound effect of hundreds of small decisions - doing two push-ups a day, waking up five minutes early, or holding a single short phone call. He calls them atomic habits."
   },
   {
     "Title": "Stöld",
@@ -233,9 +226,8 @@
     "Ownership": false,
     "Publisher": "Romanus Selling",
     "Image": "https://s1.adlibris.com/images/62352422/stold.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "Som nioåring blir renskötardottern Elsa vittne till hur en man dödar en av hennes renar. Hon hotas till tystnad och blir smärtsamt medveten om att hennes ursprung väcker ett glödande hat.Stöld är en vild och vacker jojk till renskötarlivet, men också en spännande roman om en sällan skildrad verklighet i norr. Där renar tjuvjagas och dödas brutalt och polisen inte utreder brotten. Där spänningarna mellan samer och andra bybor förgiftar generationer Hotet mot Elsa förändrar henne för alltid och genom åren bär hon med sig ett lent renöra som en ständig påminnelse. Familjen och släkten kämpar för rättvisa men i det tysta växer en desperation.Augustprisbelönade Ann-Helén Laestadius första roman för vuxna bygger på verkliga händelser. Stöld är en varm men samtidigt svidande skildring av en bortglömd del av Sverige där människor ställs mot varandra."
   },
   {
     "Title": "Shuggie Bain",
@@ -250,9 +242,8 @@
     "Ownership": false,
     "Publisher": "Albert Bonniers Publish",
     "Image": "https://s2.adlibris.com/images/62684185/shuggie-bain.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "Året är 1981 och industristaden Glasgow är nere för räkning. Under Thatchers järnhårda styre måste man kämpa för att överleva. Glamorösa Agnes Bain har alltid haft större drömmar än så, men när hennes man lämnar familjen faller allt samman och det kommer an på barnen att fånga henne. Shuggie Bain, minstingen, är den som håller ut längst. Men Shuggie drömmer sig också bort, från gruvområdet och från den hånfulla omgivning som aldrig låter honom glömma att han är annorlunda."
   },
   {
     "Title": "Tänka, snabbt och långsamt",
@@ -267,9 +258,8 @@
     "Ownership": true,
     "Publisher": "Volante",
     "Image": "https://s2.adlibris.com/images/38311996/tanka-snabbt-och-langsamt.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "Psykologen Daniel Kahneman, som belönats med Ekonomipriset till Alfred Nobels minne för sin banbrytande forskning, anses vara en av vår tids viktigaste tänkare. Hans forskning har haft stort inflytande inom en rad olika områden från ekonomi och psykologi till medicin och politik. Men det är först nu, i Tänka, snabbt och långsamt, som hans idéer blir tillgängliga för en bredare publik."
   },
   {
     "Title": "Hjärnstark : hur motion och träning stärker din hjärna",
@@ -284,9 +274,8 @@
     "Ownership": true,
     "Publisher": "Månpocket",
     "Image": "https://s1.adlibris.com/images/43499150/hjarnstark-hur-motion-och-traning-starker-din-hjarna.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "Vill du bli mer stresstålig, må bättre, förbättra ditt minne och bli mer kreativ och intelligent? Se då till att röra på dig! Regelbunden träning har nämligen visat sig vara den bästa hjärngympan som finns, bättre än sudoku, korsord och alla tänkbara kosttillskott tillsammans. Man vet i dag att hjärnan är enormt föränderlig. Det bildas ständigt nya hjärnceller och nya kopplingar skapas och försvinner. Allt du gör, till och med varje tanke du tänker, förändrar din hjärna lite grann. Och det gör i allra högsta grad även motion och träning. När du rör på dig blir du inte bara piggare och mår bättre, det påverkar också koncentrationen, minnet, måendet, sömnen, kreativiteten och stresståligheten – till och med din personlighet och intelligens. Du tänker helt enkelt snabbare och kan lägga i en extra ”mental växel”, till exempel för att kunna koncentrera dig när det är stökigt omkring dig. Och alla som rör på sig får de här fördelarna, barn, vuxna och gamla."
   },
   {
     "Title": "Morgonstjärnan",
@@ -301,9 +290,8 @@
     "Ownership": true,
     "Publisher": "Norstedts",
     "Image": "https://s1.adlibris.com/images/61702950/morgonstjarnan.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "Det är sent i augusti, sommarledighetens sista skälvande dagar. Litteraturprofessor Arne och konstnären Tove befinner sig på Sørlandet tillsammans med sina barn. Vännen Egil bor i ett hus alldeles i närheten, prästen Kathrine är på väg hem från ett seminarium, fritidsledaren Emil repar med sitt band, journalisten Jostein är ute på stan och hans flickvän Turid jobbar natt på sjukhuset. Över var och en av dem dyker det plötsligt upp en jättelik stjärna på himlavalvet. Inte ens astronomerna har ord för att förklara vad det är som sker. Är det ett stjärnfall? Men varför har då ingen sett stjärnan tidigare? Har den precis uppstått ur intet?"
   },
   {
     "Title": "Hjärtlinjer",
@@ -318,9 +306,8 @@
     "Ownership": true,
     "Publisher": "Albert Bonniers Publish",
     "Image": "https://s2.adlibris.com/images/61803473/hjartlinjer.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "Som tonåringar rymmer tvillingsystrarna Desiree och Stella Vignes till New Orleans. Där inser Stella för första gången att hennes hud är så ljus att andra människor kan ta henne för vit. Så snart hon upptäckt kraften i den förklädnaden finns ingen återvändo.Tjugo år senare lär två unga kvinnor känna varandra i 80-talets Los Angeles. På ytan har de inte mycket gemensamt, men de delar samma rötter."
   },
   {
     "Title": "Innan floden tar oss",
@@ -335,9 +322,8 @@
     "Ownership": false,
     "Publisher": "Norstedts",
     "Image": "https://s2.adlibris.com/images/247312/innan-floden-tar-oss.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "Sofia och Janne packar väskorna för att bosätta sig utomlands. Sofia har höga ambitioner för sitt nya jobb som biståndschef på svenska ambassaden i Dhaka, huvudstaden i Bangladesh. Janne ställer motvilligt in sig på att vara medföljande man och ta hand om hem och barn.Samtidigt mördas en ung kvinna, Mukta, av sin man i en liten by långt ute på landsbygden. Hennes småsystrar flyr till Dhaka för att undvika att giftas bort med åldrande män.Mötet med verkligheten i Dhaka blir lika omtumlande för svenska Sofia och Janne som för flickorna från byn och deras tillvaro vävs snart samman med de unga systrarnas. Deras förutsättningar är helt skilda men var och en drivs av sin övertygelse, sina mål och drömmar. Sofia stöter snart på hinder i sitt arbete med jämställdhetsfrågor och byflickorna upptäcker att de kan tjäna egna pengar."
   },
   {
     "Title": "Hälsogåtan : evolution, forskning och 48 konkreta råd",
@@ -352,9 +338,8 @@
     "Ownership": false,
     "Publisher": "Bonnier Fakta",
     "Image": "https://s1.adlibris.com/images/55216958/halsogatan-evolution-forskning-och-48-konkreta-rad.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "Hur ska man leva för att hålla sig så frisk som möjligt? Att vi kan påverka vår hälsa genom vår livsstil är inget nytt, men det finns olika bud om det bästa sättet. Läkaren och epidemiologen Anders Wallensten tar oss tillbaka till vårt ursprung i jakten på svaret.Vår kropp skiljer sig inte från en jägare-samlare som levde för hundra tusen år sedan men vår tillvaro är väsensskild. Hur påverkar det oss att ha en kropp som är skapt för andra påfrestningar än i dag och hur kan vi dra nytta av kunskap om vårt förflutna?Här reds hälsogåtan ut från såväl ett evolutionärt, vetenskapligt som ett erfarenhetsbaserat perspektiv. Det handlar om hur vår kropp fungerar och om mat, motion, sömn, relationer och omgivning. Du kommer att få kunskap och redskap för att kunna ta välgrundade hälsobeslut som passar i just ditt liv."
   },
   {
     "Title": "En man som heter Ove jubileumsutgåva - signerad",
@@ -369,9 +354,8 @@
     "Ownership": true,
     "Publisher": "Bokförlaget Forum",
     "Image": "https://s1.adlibris.com/images/64848138/signerad-en-man-som-heter-ove-jubileumsutgava.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "När En man som heter Ove gavs ut 2012 kunde nog ingen ana att den 10 år senare skulle beskrivas som ett internationellt fenomen, men sagan om störiga grannar och vikten av att köra Saab blev en succé i alltifrån Tyskland till Sydkorea, låg på New York Times bästsäljarlista i mer än ett år och har sålts i 8 miljoner exemplar. Den svenska filmatiseringen Oscarsnominerades och nu spelas en amerikansk version in med Tom Hanks. I denna jubileumsutgåva får du hela romanen igen, men för första gången skriver även författaren djupt personligt om hur allting började och boken kom till. I det rika extramaterialet ger berörda världen över sin syn på Oves resa från ett anonymt svenskt radhusområde till Hollywood."
   },
   {
     "Title": "Och bilen går bra?",
@@ -386,9 +370,8 @@
     "Ownership": true,
     "Publisher": "Månpocket",
     "Image": "https://s1.adlibris.com/images/54707047/och-bilen-gar-bra.jpg",
-    "Review": [
-      ""
-    ]
+    "Review": null,
+    "Description": "Den obehagliga tystnaden. Brukar du också kasta ur dig plattityder som åh vilket vackert väder vi har fåttför att snabbt bryta den? Då är Och bilen går bra? precis den bok du behöver. Här delar Niklas Källner med sig av sina bästa tips på hur man fixar kallpratet – som faktiskt är ett viktigt kitt för goda relationer.Boken ger både konkret vägledning olikavardagssituationer och bjussar på roliga anekdoter från såväl världspolitikens arena som sfi-klassrummet.Intressanta historier kring människor och företeelser som alla har med kallprat att göra, blandas med intervjuer med olika yrkesgrupper, fakta, konkreta tips på hur man blir en bättre kallpratare och Niklas personliga reflektioner.Förhoppningsvis kan boken vara till hjälp när du saknar samtalsämnen på nästa middag eller jobbmingel."
   },
   {
     "Title": "Factfulness : tio knep som hjälper dig förstå världen",
@@ -403,8 +386,26 @@
     "Ownership": false,
     "Publisher": "Natur Kultur Allmänlitteratur",
     "Image": "https://s1.adlibris.com/images/57265299/factfulness-tio-knep-som-hjalper-dig-forsta-varlden.jpg",
+    "Review": null,
+    "Description": "I Factfulness visar Hans Rosling, Ola Rosling och Anna Rosling Rönnlund varför vi ständigt missförstår världens utveckling, och vad vi kan göra för att rätta till våra missuppfattningar. Med utgångspunkt i tio misstag vår hjärna gör visar de hur vi kan bryta med våra tankefel och förstå världen bättre. Med samma passion och folkbildningsiver som gjort Hans Rosling berömd visar han hur vi alla kan slippa stressas av en föråldrad bild av världen. Bara genom att ha en världsbild grundad på fakta kan medborgare, politiker och företagsledare fatta rätt beslut i en globaliserad samtid."
+  },
+  {
+    "Title": "Dummy New Book",
+    "Author": "Dummy author",
+    "ISBN": "9090909090",
+    "Genre": "Geografi",
+    "Language": "Franska",
+    "ReleaseDate": "2000-10-19",
+    "Read": true,
+    "Price": 80,
+    "NobelPriceWinner": true,
+    "Ownership": false,
+    "Publisher": "Dummy aithor",
+    "Image": "http://images.amazon.com/images/P/0596004613.01._PE30_PI_SCMZZZZZZZ_.jpg",
     "Review": [
-      ""
-    ]
+      "Dummy First Review",
+      "this was a nice book"
+    ],
+    "Description": null
   }
 ]
