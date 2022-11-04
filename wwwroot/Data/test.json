@@ -12,7 +12,9 @@
     "Ownership": false,
     "Publisher": "Random House Business Books",
     "Image": "https://s1.adlibris.com/images/64407130/dk-eyewitness-top-10-travel-guide-venice.jpg",
-    "Review": null,
+    "Review": [
+      "test"
+    ],
     "Description": "The ultimate guide to this extraordinary and colourful city. From the meandering canals to world-class art galleries, all the must-sees are covered in trouble-free Top 10 lists. This richly illustrated guide is highly detailed and with the addition of a map, it is the ideal travel companion. "
   },
   {

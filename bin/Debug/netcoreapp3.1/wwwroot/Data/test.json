@@ -10,13 +10,11 @@
     "Price": 100,
     "NobelPriceWinner": false,
     "Ownership": false,
-<<<<<<< HEAD
-    "Publisher": null,
-=======
     "Publisher": "Random House Business Books",
->>>>>>> bdf3e2afbe8548e77ed5a65df31f792c2bf7734c
     "Image": "https://s1.adlibris.com/images/64407130/dk-eyewitness-top-10-travel-guide-venice.jpg",
-    "Review": null,
+    "Review": [
+      "test"
+    ],
     "Description": "The ultimate guide to this extraordinary and colourful city. From the meandering canals to world-class art galleries, all the must-sees are covered in trouble-free Top 10 lists. This richly illustrated guide is highly detailed and with the addition of a map, it is the ideal travel companion. "
   },
   {
@@ -48,7 +46,9 @@
     "Ownership": true,
     "Publisher": "Little Brown and Company",
     "Image": "https://s2.adlibris.com/images/29254964/chemist.jpg",
-    "Review": null,
+    "Review": [
+      "new review"
+    ],
     "Description": "In this gripping page-turner, an ex-agent on the run from her former employers must take one more case to clear her name and save her life.She used to work for the U.S. government, but very few people ever knew that. An expert in her field, she was one of the darkest secrets of an agency so clandestine it doesn't even have a name. And when they decided she was a liability, they came for her without warning."
   },
   {
@@ -405,7 +405,8 @@
     "Publisher": "Dummy aithor",
     "Image": "http://images.amazon.com/images/P/0596004613.01._PE30_PI_SCMZZZZZZZ_.jpg",
     "Review": [
-      "Dummy First Review"
+      "Dummy First Review",
+      "this was a nice book"
     ],
     "Description": null
   }
