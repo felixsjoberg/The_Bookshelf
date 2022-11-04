@@ -6,66 +6,88 @@
 }
 
 <div>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .mb-3 {
-            padding: 14px 20px;
-            border-width: 2px;
-            border-style: solid;
-            border-color: black;
-            float: right;
-            text-align: center;
-            width: 70%;
-            background-color: #d1d1d1;
-        }
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.navbar{
+			margin-bottom: 20px;
+		}
+		.lead{
+			background-color: #d1d1d1;
+			float:right;
+			width:70%
+			
+			
+			
+		}
+		.mb-3{
+			padding: 14px 20px;
+			border-width: 2px;
+			border-style: solid;
+			border-color: black;
+			float:right;
+			text-align: center;
+			width:70%;
+			background-color : #d1d1d1;
+			
+			
+		}
+		.card{
+			width: 20%;
+			float: left;
+			padding: 14px 20px;
+			
+		}
+	</style>
 
-        .card {
-            width: 20%;
-            float: left;
-            padding: 14px 20px;
-        }
-    </style>
-    @if (Model.Book.Review[0]== "")
-        {
-            for (int i = 0; i < Model.Book.Review.Count(); i++)
-            {
-                <div><p> @Model.Book.Review[i]</p></div>
-            }
-        }
+	<h1 style="float:right;width:70%;text-align:center">Book Description</h1>
+	
+	<p style="float:right;width:70%;text-align:center;font-size:160%;border-width:3px; border-style:solid;border-color:black;"> @Model.Book.Description</p>
+	
 
-    <form method="post">
-        <div class="mb-3">
-            @*			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-            *@			<label for="exampleFormControlTextarea1" class="form-label"> Add a Review</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" asp-for="Book.Review[0]" placeholder="Write review.." rows="1" name="review">
+	<div class="card" style="width:25%">
+		<img src="@Model.Book.Image" class="card-img-top" alt="...">
+		<div class="card-body">
+			<h5 class="card-title">@Model.Book.Title</h5>
+			<p class="card-text">By @Model.Book.Author</p>
+		</div>
+		<ul class="list-group list-group-flush">
+			<li class="list-group-item">Nobel Price Winner : @Model.Book.NobelPriceWinner</li>
+			<li class="list-group-item">Read/NotRead: @Model.Book.Read</li>
+			<li class="list-group-item">Status: @Model.Book.Ownership </li>
+		</ul>
+		@*<div class="card-body">
+		<a href="#" class="card-link">Card link</a>
+		<a href="#" class="card-link">Another link</a>
+		</div>*@
+	</div>
+
+
+	<form method="post">
+           
+		<div class="mb-3" >
+			<label for="exampleFormControlTextarea1" class="form-label" style="font-size:150%"> Add a Review</label>
+			<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="review"></textarea>
+			<input hidden asp-for="Book.ISBN" name="isbn"></input>
+
+			@foreach (var item in Model.Book.Review)
+			{
+				@if(item!=null)
+			    {
+					<div> @item</div>
+				}
 				
-			</textarea>
-            <input hidden asp-for="Book.ISBN" name="isbn">
-            </input>
+			}
+			<button type="submit" class="btn btn-primary" style="width:150px">Submit</button>
+			<a asp-page="/Index" class="btn btn-secondary" style="width:150px">
+				Back to List
+			</a>
+		</div>
 
-            <button type="submit" class="btn btn-primary" style="width:150px">Submit</button>
-            <a asp-page="/Index" class="btn btn-secondary" style="width:150px">
-                Back to List
-            </a>
-        </div>
+           
+            
 
     </form>
-
-    <div class="card" style="width:25%">
-        <img src="@Model.Book.Image" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">@Model.Book.Title</h5>
-            <p class="card-text">By @Model.Book.Author</p>
-        </div>
-        @*<ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-            </ul>
-            <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-            </div>*@
-    </div>
+	
+	
 
 </div>

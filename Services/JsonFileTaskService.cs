@@ -50,10 +50,12 @@ namespace gruppArbete.Services
         public void AddReviews(string id, string review)
         {
             var books = GetTasks();
-            if (books.First(x => x.ISBN == id).Review == null)
+            //Finding the null value and add a new text in the review array.
+            if (books.First(x => x.ISBN == id).Review == null)      
             {
                 books.First(x => x.ISBN == id).Review = new string[] { review };
             }
+            //Finding the review that has already been added, and add a new review.
             else
             {
                 var newReview = books.First(x => x.ISBN == id).Review.ToList();
