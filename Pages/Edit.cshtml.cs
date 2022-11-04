@@ -31,34 +31,23 @@ namespace gruppArbete.Pages
         {
             books = BooksService.GetTasks();
             Books = books.FirstOrDefault(x => x.ISBN == id);
-            
 
         }
 
         public IActionResult OnPost()
         {
 
-            //if (ModelState.IsValid == false) // make sure fields that are req is filled.
-            //{
-            //    TempData["error"] = "Error while creating book";
-
-            //    return Page();
-            //}
-            //var author = Request.Form["review"];
-            //var isbn = Request.Form["isbn"];
-            //var genre = Request.Form["review"];
-            //var language = Request.Form["isbn"];
-            //var releasedate = Request.Form["review"];
-            //var read = Request.Form["isbn"];
-            //var price = Request.Form["isbn"];
-            //var nobelpricewinner = Request.Form["isbn"];
-            //var ownership = Request.Form["isbn"];
-            //var publisher = Request.Form["isbn"];
-            //var image = Request.Form["isbn"];
             BooksService.Edit(Books);
             TempData["success"] = "Book updated successfully";
             return RedirectToAction("./Index");
         }
+
+        public IActionResult OnPostDelete()
+        {
+            BooksService.Delete(Books.ISBN);
+            return RedirectToAction("Get");
+        }
+
     }
 
 }

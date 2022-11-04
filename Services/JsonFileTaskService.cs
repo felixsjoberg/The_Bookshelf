@@ -90,6 +90,16 @@ namespace gruppArbete.Services
             File.WriteAllText(@"wwwroot/Data/test.json", output);
         }
 
+        public void Delete(string isbn)
+        {
+            var books = GetTasks();
+            var book = books.FirstOrDefault(p => p.ISBN == isbn);
+            if (book is null)
+                return;
+
+            books.Remove(book);
+        }
+
     }
   }
 

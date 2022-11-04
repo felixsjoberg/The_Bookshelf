@@ -1,17 +1,28 @@
-﻿@page
+﻿@page 
 @model gruppArbete.Pages.EditModel
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     ViewData["Title"] = "Add book";
 }
 
+
 <form method="post">
     <div class="border p-3 mt-2">
-        <div class="row pb-2">
-            <h2 class="text-primary">Edit book</h2>
-            <hr />
+        <div class="row">
+            <div class="col-6 pb-2">
+                <h2 class="text-primary">Edit book</h2>
+                <hr />
+            </div>
+            
+            <div class="col-6 text-end">
+                <form asp-page-handler="OnPostDelete" method="post">
+                    <input hidden asp-for="Books.ISBN">
+                    <button class="btn disabled btn-danger">Delete</button>
+                </form>
+            </div>
         </div>
-        
+
+
         <!-- Style and create new divs that fit & require right dataType for each property.-->
         <form method="post">
             <div>
@@ -26,9 +37,9 @@
             </div>
             <div>
                 <label class="col-form-label mt-2" asp-for="Books.ISBN">ISBN:<span class="text-danger"> Can't be changed here</span></label>
-                <input hidden asp-for="Books.ISBN" >
+                <input hidden asp-for="Books.ISBN">
                 <span asp-validation-for="Books.ISBN" class="text-danger"></span>
-            </div>            
+            </div>
 
             <div>
                 <label class="col-form-label mt-2" asp-for="Books.Price">Price:</label>
@@ -92,7 +103,6 @@
             <a asp-page="/Index" class="btn btn-secondary" style="width:150px">
                 Back to List
             </a>
-
         </form>
     </div>
 </form>
